@@ -7,7 +7,7 @@ pytz
 python-dotenv
 pycryptodome
 pyaes
-tgcrypto
+#tgcrypto
 requests
 yt-dlp
 ffmpeg
