@@ -1,3 +1,10 @@
+print("1")
+import core as helper
+print("2")
+from utils import progress_bar
+print("3")
+from vars import *
+print("4")
 print("BOT STARTING...")
 import os
 import re
