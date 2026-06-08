@@ -6,7 +6,10 @@ import aiofiles
 import asyncio
 import logging
 import requests
-import tgcrypto
+try:
+    import tgcrypto
+except ImportError:
+    pass
 import subprocess
 import concurrent.futures
 
