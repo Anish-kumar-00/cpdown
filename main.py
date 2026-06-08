@@ -1,3 +1,4 @@
+print("BOT STARTING...")
 import os
 import re
 import sys
@@ -229,5 +230,5 @@ async def account_login(bot: Client, m: Message):
         await m.reply_text(e)
     await m.reply_text("Done")
 
-
+print("RUNNING BOT...")
 bot.run()
