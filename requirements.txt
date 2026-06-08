@@ -1,5 +1,5 @@
-pyrogram
-pyromod
+pyrogram==2.0.106
+pyromod==1.5
 psutil
 PySocks
 pytz
