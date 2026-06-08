@@ -1,11 +1,12 @@
-print("1")
+print("STEP 1")
 import core as helper
-print("2")
+print("STEP 2")
 from utils import progress_bar
-print("3")
-from vars import *
-print("4")
-print("BOT STARTING...")
+print("STEP 3")
+from vars import api_id, api_hash, bot_token, auth_users, sudo_user, log_channel, txt_channel
+print("STEP 4")
+from aiohttp import ClientSession
+print("STEP 5")
 import os
 import re
 import sys
