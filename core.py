@@ -1,3 +1,4 @@
+print("CORE LOADED")
 import os
 import time
 import datetime
